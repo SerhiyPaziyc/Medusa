@@ -2,6 +2,9 @@
 
 @section('content')
 
+    <form action="/buy/submit" method="post">
+@csrf
+
     <div class="cart">
     <div class="conteiner">
         <div class="under">
@@ -15,10 +18,11 @@
 <div class="conteiner_buy">
     <div class="content">
         <div class="content_buy">
-                <input class="buy" placeholder="Ім'я">
-                <input class="buy" placeholder="Прізвище">
-                <input class="buy" placeholder="Номер телефону">
-                <input class="buy" placeholder="Адрес">
+                <input class="buy" type="text" name="firstname" id="firstname" placeholder="Ім'я">
+                <input class="buy" type="text" name="lastname" id="lastname" placeholder="Прізвище">
+                <input class="buy" type="text" name="telephonenumber" id="telephonenumber" placeholder="Номер телефону">
+                <input class="buy" type="text" name="address" id="address" placeholder="Адреса">
+                <input class="buy" type="hidden" name="product_id" id="product_id" placeholder="">
         </div>
 
         <div class="content_buy">
@@ -33,10 +37,11 @@
 </div>
 <div class="conteiner">
     <div class="content">
-        <a class="btn_buy  btn_buy--color" href="buygood">Замовити</a>
+        <button type="submit" class="btn_buy  btn_buy--color" href="buygood">Замовити</button>
     </div>
 </div>
 </div>
+    </form>
 
 @endsection
 

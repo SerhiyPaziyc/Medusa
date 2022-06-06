@@ -108,13 +108,14 @@ body{
 .content {
     display: flex;
     margin: 20px 0;
+    flex-wrap: wrap;
 }
 
 .content_item {
     font-size: 18px;
-    margin: 42px 80px;
+    margin: 42px 1%;
     background: #425973;
-    width: 25%;
+    width: 23%;
     text-align: center;
     padding: 0 20px;
 
