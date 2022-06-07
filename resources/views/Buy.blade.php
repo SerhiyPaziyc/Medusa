@@ -16,7 +16,7 @@
     </div>
 <div class="conteiner">
 <div class="conteiner_buy">
-    <div class="content">
+    <div class="content_repair">
         <div class="content_buy">
                 <input class="buy" type="text" name="firstname" id="firstname" placeholder="Ім'я">
                 <input class="buy" type="text" name="lastname" id="lastname" placeholder="Прізвище">
@@ -36,7 +36,7 @@
 </div>
 </div>
 <div class="conteiner">
-    <div class="content">
+    <div class="content_repair">
         <button type="submit" class="btn_buy  btn_buy--color" href="buygood">Замовити</button>
     </div>
 </div>

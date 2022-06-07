@@ -34,16 +34,16 @@
         <div class="conteiner">
            <div class="heder__iner">
               <div class="heder__logo">
-                   <a class="heder__logo" href="/">Medusa</a>
+                   <a class="heder__logo" href="/categories/iphones">Medusa</a>
                </div>
 
                <nav class="nav">
-                   <a class="nav__linc" href="/">iPhone</a>
-                   <a class="nav__linc" href="ipad">iPad</a>
-                   <a class="nav__linc" href="applewatch">Apple Watch</a>
-                   <a class="nav__linc" href="accessory">Аксесуари</a>
-                   <a class="nav__linc" href="repair">Ремонт</a>
-                   <a class="nav__linc" href="appleby">Apple б/у</a>
+                   <a class="nav__linc" href="/categories/iphones">iPhone</a>
+                   <a class="nav__linc" href="/categories/ipad">iPad</a>
+                   <a class="nav__linc" href="/categories/watch">Apple Watch</a>
+                   <a class="nav__linc" href="/categories/accessory">Аксесуари</a>
+                   <a class="nav__linc" href="/repair">Ремонт</a>
+                   <a class="nav__linc" href="/categories/byiphones">Apple б/у</a>
                    <img class="heder__logo" src="/img/62-558f5baf-club.png" width="230px", height="50px" alt="">
                </nav>
             </div>
@@ -52,11 +52,10 @@
 
 <div class="nav2">
    <div class="nav2__linc">
-    <a class="nav2__linc" href="">Лідер продаж</a>
-    <a class="nav2__linc" href="appleby">б/у iPhone</a>
-    <a class="nav2__linc" href="applewatch">Apple Watch</a>
-    <a class="nav2__linc" href="ipad">iPad</a>
-    <a class="nav2__linc" href="accessory">Аксесуари</a>
+    <a class="nav2__linc" href="/categories/byiphones">б/у iPhone</a>
+    <a class="nav2__linc" href="/categories/watch">Apple Watch</a>
+    <a class="nav2__linc" href="/categories/ipad">iPad</a>
+    <a class="nav2__linc" href="/categories/accessory">Аксесуари</a>
    </div>
 </div>
 
