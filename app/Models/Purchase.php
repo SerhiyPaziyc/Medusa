@@ -14,6 +14,6 @@ class Purchase extends Model
         'lastname',
         'telephonenumber',
         'address',
-        'product_id'
+        'product_id',
     ];
 }

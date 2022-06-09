@@ -17,12 +17,24 @@ class CategorySeeder extends Seeder
     {
         $data = [
             [
-                'name' => 'Б/У IPHONE',
+                'name' => 'IPHONE',
                 'slug' => 'iphones',
             ],
             [
-                'name' => 'cat_2',
-                'slug' => 'cat_2',
+                'name' => 'IPAD',
+                'slug' => 'ipad',
+            ],
+            [
+                'name' => 'WATCH',
+                'slug' => 'watch',
+            ],
+            [
+                'name' => 'ACCESSORY',
+                'slug' => 'accessory',
+            ],
+            [
+                'name' => 'Б/У IPHONE',
+                'slug' => 'byiphones',
             ],
         ];
 

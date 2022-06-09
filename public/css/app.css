@@ -111,6 +111,19 @@ body{
     flex-wrap: wrap;
 }
 
+.content_repair {
+    display: flex;
+    margin: 20px 0;
+}
+.content_item_repair {
+    font-size: 18px;
+    margin: 42px 80px;
+    background: #425973;
+    width: 25%;
+    text-align: center;
+    padding: 0 20px;
+
+}
 .content_item {
     font-size: 18px;
     margin: 42px 1%;
@@ -198,10 +211,10 @@ body{
 
 .content_phone {
 
-     align-items: center;
+    align-items: center;
     display: flex;
     margin: 20px 460px;
-     font-family: sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
 
 }
@@ -234,7 +247,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 20px 50px;
+    padding: 25px 70px;
     transition: padding .1s linear;
     margin-left: 10px;
     background: #D24040;
@@ -243,12 +256,12 @@ body{
 
 .repair_batton:hover {
     background-color: #a73737;
-    padding: 23px 55px;
+    padding: 28px 70px;
 }
 
 .phone:hover {
     background-color: #a7bfe2;
-    padding: 20px 50px;
+    padding: 20px 46px;
     transition: padding .1s linear;
 }
 

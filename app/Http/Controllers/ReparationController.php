@@ -2,19 +2,16 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Requests;
-use App\Http\Requests\reparationsRequest;
-use App\Models\reparations;
+use App\Http\Requests\ReparationRequest;
+use App\Models\Reparation;
+use Illuminate\Http\Request;
 
 class ReparationController extends Controller
 {
-    public function sumbit(reparationsRequest $req)
+    public function submit(ReparationRequest $request)
     {
+        Reparation::create($request->validated());
 
-        $reparation = new reparation();
-        $reparation->telephonenumber = $req->input('telephonenumber');
-        $reparation->save();
-
-        return redirect()->route('home');
+        return redirect()->route('buygood');
     }
 }

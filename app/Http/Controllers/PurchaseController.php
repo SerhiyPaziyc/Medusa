@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Http\Requests\PurchaseRequest;
 use App\Models\Purchase;
 use Illuminate\Http\Request;
