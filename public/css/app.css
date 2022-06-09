@@ -211,10 +211,10 @@ body{
 
 .content_phone {
 
-     align-items: center;
+    align-items: center;
     display: flex;
     margin: 20px 460px;
-     font-family: sans-serif;
+    font-family: sans-serif;
     letter-spacing: 1px;
 
 }

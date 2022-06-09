@@ -27,7 +27,7 @@
 
         <div class="content_buy">
         <div class="content_item_buy" data-id="01" >
-            <img class="content_icon_buy" src="/img/13promax.jpg" alt="">
+            <img class="content_icon_buy" src="{{ asset('/img/13promax.jpg') }}" alt="">
             <h4 id="out" class="content_title" >iPhone 13 PRO MAX</h4>
             <div class="content_text">bdt</div>
         </div>

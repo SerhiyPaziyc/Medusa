@@ -23,4 +23,4 @@ Route::get('/buygood', function () {return view('buy_good');})->name('buygood');
 Route::get('/buy', function () {return view('buy');})->name('buy');
 
 Route::post('/buy/submit', [\App\Http\Controllers\PurchaseController::class, 'submit'])->name('buy_submit');
-Route::post('/repair/submit', [\App\Http\Controllers\ReparationsController::class, 'submit', 'checkbox'])->name('repair_submit');
+Route::post('/repair/submit', [\App\Http\Controllers\ReparationController::class, 'submit', 'checkbox'])->name('repair_submit');
