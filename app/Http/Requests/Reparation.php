@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Request;
+namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
@@ -25,7 +25,7 @@ class Reparation extends FormRequest
     {
         return [
             'telephonenumber' => 'required|string|max:13',
-            //'choose' => 'required|integer',
+            'choose' => 'required|integer',
         ];
     }
 }
