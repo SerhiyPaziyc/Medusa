@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ReparationsRequest;
-use App\Models\Reparations;
+use App\Http\Requests\ReparationRequest;
+use App\Models\Reparation;
 use Illuminate\Http\Request;
 
 class ReparationController extends Controller
 {
-    public function submit(ReparationsRequest $request)
+    public function submit(ReparationRequest $request)
     {
         Reparation::create($request->validated());
 
