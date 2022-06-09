@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('reparation', function (Blueprint $table) {
+        Schema::create('reparations', function (Blueprint $table) {
             $table->id();
             $table->string('telephonenumber');
             //$table->unsignedInteger('choose');

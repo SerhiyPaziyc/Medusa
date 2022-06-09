@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/categories/{slug}', [\App\Http\Controllers\CategoryController::class, 'show'])->name('category');
 
-Route::get('/', function () {return view('index');})->name('homepage');
+Route::redirect('/', '/categories/iphones')->name('homepage');
 
 Route::get('/repair', function () {return view('repair');})->name('repair');
 
