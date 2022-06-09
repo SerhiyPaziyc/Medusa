@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ReparationRequest;
-use App\Models\Reparation;
+use App\Http\Requests\Reparation;
+use App\Models\Reparation as ReparationRequest;
 use Illuminate\Http\Request;
 
 class ReparationController extends Controller
