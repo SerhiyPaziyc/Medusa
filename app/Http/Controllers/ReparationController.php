@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\ReparationRequest;
+use App\Http\Requests\Reparation as ReparationRequest;
 use App\Models\Reparation;
 use Illuminate\Http\Request;
 

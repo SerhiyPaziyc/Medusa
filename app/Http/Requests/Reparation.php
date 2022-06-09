@@ -4,7 +4,7 @@ namespace App\Http\Request;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ReparationRequest extends FormRequest
+class Reparation extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
