@@ -25,7 +25,7 @@ class Reparation extends FormRequest
     {
         return [
             'telephonenumber' => 'required|string|max:13',
-            //'choose' => 'required|integer',
+            'choose' => 'required|integer',
         ];
     }
 }

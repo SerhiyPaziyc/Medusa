@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('reparations', function (Blueprint $table) {
             $table->id();
             $table->string('telephonenumber');
-            //$table->unsignedInteger('choose');
+            $table->unsignedInteger('choose');
             $table->timestamps();
         });
     }

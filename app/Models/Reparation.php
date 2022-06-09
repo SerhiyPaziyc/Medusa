@@ -11,6 +11,6 @@ class Reparation extends Model
 
     protected $fillable = [
         'telephonenumber',
-        //'choose',
+        'choose',
     ];
 }
