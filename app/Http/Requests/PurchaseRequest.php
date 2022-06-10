@@ -26,7 +26,7 @@ class PurchaseRequest extends FormRequest
         return [
             'firstname' => 'required|string|max:255',
             'lastname' => 'required|string|max:255',
-            'telephonenumber' => 'required|string|max:255',
+            'telephonenumber' => 'required|string|max:13',
             'address' => 'required|string|max:255',
             'product_id' => 'required|integer',
         ];
