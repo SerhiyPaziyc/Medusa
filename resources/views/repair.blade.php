@@ -27,7 +27,7 @@
         <label class="content_item_repair">
                 <img class="content_icon" src="{{ asset('/img/13.jpg') }}" alt="">
                 <h4 name="choose" type="text" id="1" class="content_title" >iPhone</h4>
-            <input class="content_checkbox" type="radio" name="choose" value="1" chacked="chacked">
+            <input class="content_checkbox" type="radio" name="choose" value="1" checked="selected">
         </label>
         <label class="content_item_repair">
             <img class="content_icon" src="{{ asset('/img/iPad%20Pro%2011.jfif') }}" alt="">

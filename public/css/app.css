@@ -19,7 +19,6 @@ body{
 .conteiner {
     width: 100%;
     min-width: 1600px;
-    margin: 120 1000;
 }
 
 
@@ -138,7 +137,7 @@ body{
     width: 270px;
     height: 300px;
     margin-bottom: 2px;
-    padding: 1.7px solid #333;
+    padding: 1.7px;
 
 }
 
@@ -344,7 +343,7 @@ body{
     width: 270px;
     height: 300px;
     margin-bottom: 2px;
-    padding: 1.7px solid #333;
+    padding: 1.7px;
 
 }
 
